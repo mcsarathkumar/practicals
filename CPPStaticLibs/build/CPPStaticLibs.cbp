@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Workspace/practicals/CPPStaticLibs/cpp_util.cpp">
+		<Unit filename="D:/Workspace/practicals/CPPStaticLibs/include/shared-utils.cpp">
 			<Option target="CPPStaticLibs"/>
 		</Unit>
-		<Unit filename="D:/Workspace/practicals/CPPStaticLibs/cpp_util.h">
+		<Unit filename="D:/Workspace/practicals/CPPStaticLibs/include/shared-utils.h">
 			<Option target="CPPStaticLibs"/>
 		</Unit>
 		<Unit filename="D:/Workspace/practicals/CPPStaticLibs/CMakeLists.txt">

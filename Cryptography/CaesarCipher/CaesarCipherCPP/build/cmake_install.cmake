@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Workspace/practicals/Cryptography/CaesarCipher/CaesarCipherCPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Workspace/practicals/Cryptography/CaesarCipher/CaesarCipherCPP/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

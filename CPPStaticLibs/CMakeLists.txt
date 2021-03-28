@@ -3,6 +3,6 @@ project(CPPStaticLibs)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES cpp_util.h cpp_util.cpp)
+set(SOURCE_FILES include/shared-utils.h include/shared-utils.cpp)
 
-add_library(CPPStaticLibs ${SOURCE_FILES})
+add_library(CPPStaticLibs "${SOURCE_FILES}")

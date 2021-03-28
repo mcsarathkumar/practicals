@@ -141,32 +141,32 @@ CPPStaticLibs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/build
 .PHONY : CPPStaticLibs/fast
 
-cpp_util.obj: cpp_util.cpp.obj
+include/shared-utils.obj: include/shared-utils.cpp.obj
 
-.PHONY : cpp_util.obj
+.PHONY : include/shared-utils.obj
 
 # target to build an object file
-cpp_util.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj
-.PHONY : cpp_util.cpp.obj
+include/shared-utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj
+.PHONY : include/shared-utils.cpp.obj
 
-cpp_util.i: cpp_util.cpp.i
+include/shared-utils.i: include/shared-utils.cpp.i
 
-.PHONY : cpp_util.i
+.PHONY : include/shared-utils.i
 
 # target to preprocess a source file
-cpp_util.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.i
-.PHONY : cpp_util.cpp.i
+include/shared-utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.i
+.PHONY : include/shared-utils.cpp.i
 
-cpp_util.s: cpp_util.cpp.s
+include/shared-utils.s: include/shared-utils.cpp.s
 
-.PHONY : cpp_util.s
+.PHONY : include/shared-utils.s
 
 # target to generate assembly for a file
-cpp_util.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.s
-.PHONY : cpp_util.cpp.s
+include/shared-utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPPStaticLibs.dir\build.make CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.s
+.PHONY : include/shared-utils.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPPStaticLibs
-	@echo ... cpp_util.obj
-	@echo ... cpp_util.i
-	@echo ... cpp_util.s
+	@echo ... include/shared-utils.obj
+	@echo ... include/shared-utils.i
+	@echo ... include/shared-utils.s
 .PHONY : help
 
 

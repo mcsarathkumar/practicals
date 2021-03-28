@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/Workspace/practicals/Cryptography/CaesarCipher/CaesarCipherCPP")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/Workspace/practicals/Cryptography/CaesarCipher/CaesarCipherCPP/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/Workspace/practicals/Cryptography/CaesarCipher/CaesarCipherCPP/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -75,27 +75,27 @@ include CMakeFiles/CPPStaticLibs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPPStaticLibs.dir/flags.make
 
-CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj: CMakeFiles/CPPStaticLibs.dir/flags.make
-CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj: ../cpp_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\practicals\CPPStaticLibs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPStaticLibs.dir\cpp_util.cpp.obj -c D:\Workspace\practicals\CPPStaticLibs\cpp_util.cpp
+CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj: CMakeFiles/CPPStaticLibs.dir/flags.make
+CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj: ../include/shared-utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\practicals\CPPStaticLibs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPStaticLibs.dir\include\shared-utils.cpp.obj -c D:\Workspace\practicals\CPPStaticLibs\include\shared-utils.cpp
 
-CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\practicals\CPPStaticLibs\cpp_util.cpp > CMakeFiles\CPPStaticLibs.dir\cpp_util.cpp.i
+CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\practicals\CPPStaticLibs\include\shared-utils.cpp > CMakeFiles\CPPStaticLibs.dir\include\shared-utils.cpp.i
 
-CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\practicals\CPPStaticLibs\cpp_util.cpp -o CMakeFiles\CPPStaticLibs.dir\cpp_util.cpp.s
+CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\practicals\CPPStaticLibs\include\shared-utils.cpp -o CMakeFiles\CPPStaticLibs.dir\include\shared-utils.cpp.s
 
 # Object files for target CPPStaticLibs
 CPPStaticLibs_OBJECTS = \
-"CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj"
+"CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj"
 
 # External object files for target CPPStaticLibs
 CPPStaticLibs_EXTERNAL_OBJECTS =
 
-libCPPStaticLibs.a: CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj
+libCPPStaticLibs.a: CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj
 libCPPStaticLibs.a: CMakeFiles/CPPStaticLibs.dir/build.make
 libCPPStaticLibs.a: CMakeFiles/CPPStaticLibs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\practicals\CPPStaticLibs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCPPStaticLibs.a"

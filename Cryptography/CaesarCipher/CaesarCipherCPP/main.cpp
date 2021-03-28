@@ -1,6 +1,5 @@
 #include <iostream>
-#include <limits>
-//#include "cpp_util.h"
+#include "../../../CPPStaticLibs/include/shared-utils.h"
 
 using namespace std;
 
@@ -8,13 +7,8 @@ string encrypt(string plainText, int key);
 
 string decrypt(string cipherText, int key);
 
-void validateIntegerInput(int &mappingField);
-
-void validateIntegerInput(int &mappingField, int min, int max);
-
-void validateLowerCaseInput(string &mappingField);
-
 int main() {
+
     int userOption, key;
     string inputText;
     cout << "Caesar Cipher" << endl;
@@ -65,54 +59,6 @@ string decrypt(string cipherText, int key) {
     return cipherText;
 }
 
-void validateIntegerInput(int &mappingField) {
-    while (true) {
-        if (cin >> mappingField) {
-            break;
-        } else {
-            cout << "Enter a valid input : " << endl;
-            cin.clear();
-            cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
-        }
-    }
-}
-
-void validateLowerCaseInput(string &mappingField) {
-    while (true) {
-        if (cin >> mappingField) {
-            bool validInput = true;
-            for (char i : mappingField) {
-                if (!islower(i)) {
-                    validInput = false;
-                    break;
-                }
-            }
-            if (validInput) {
-                break;
-            } else {
-                cout << "Enter a valid lower case input : " << endl;
-                cin.clear();
-            }
-        }
-    }
-}
-
-void validateIntegerInput(int &mappingField, int min, int max) {
-    while (true) {
-        if (cin >> mappingField) {
-            if (mappingField >= min && mappingField <= max) {
-                break;
-            } else {
-                cout << "Enter a valid input between " << min << " and " << max << " : " << endl;
-                cin.clear();
-            }
-        } else {
-            cout << "Enter a valid input : " << endl;
-            cin.clear();
-            cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
-        }
-    }
-}
 
 //
 //template<typename T> T &validateInput(T &val) {

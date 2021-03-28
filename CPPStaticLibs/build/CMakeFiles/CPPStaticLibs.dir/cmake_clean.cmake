@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj"
+  "CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj"
   "libCPPStaticLibs.a"
   "libCPPStaticLibs.pdb"
 )

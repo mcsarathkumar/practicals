@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Workspace/practicals/CPPStaticLibs/cpp_util.cpp" "D:/Workspace/practicals/CPPStaticLibs/build/CMakeFiles/CPPStaticLibs.dir/cpp_util.cpp.obj"
+  "D:/Workspace/practicals/CPPStaticLibs/include/shared-utils.cpp" "D:/Workspace/practicals/CPPStaticLibs/build/CMakeFiles/CPPStaticLibs.dir/include/shared-utils.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
